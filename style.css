@@ -205,6 +205,7 @@ body {
     height: 200px;
     object-fit: cover;
     transition: 1s all ease-in-out;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 .movie-item-title{
     background-color: rgba(40, 40, 40, 0.4);
@@ -294,10 +295,14 @@ body {
         display: none;
     }
     .featured-tittle{
-        width: 200px;
+        width: 155px;
+        margin-bottom: 80px;
+        margin-top: -40px;
     }
     .featured-content{
         height: 50vh;
+        margin-left: -30px;
+        box-shadow: 5px 5px 15px 5px #000000;
     }
     .featured-desc{
         overflow: hidden;
